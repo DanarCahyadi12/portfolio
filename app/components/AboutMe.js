@@ -8,12 +8,19 @@ import {
   Box,
   Flex,
   HStack,
+  VStack,
+  Text,
   Heading,
   Highlight,
   Spacer,
+  GridItem,
+  Grid
 } from "@chakra-ui/react";
 import Image from "next/image";
 import school from "../assets/School.svg";
+import roadmap from "../assets/roadmap.svg";
+import Head from "next/head";
+
 export default function AboutMe() {
   return (
     <>
@@ -23,7 +30,7 @@ export default function AboutMe() {
       >
         About me
       </Heading>
-      <HStack   width={'full'}>
+      
         <Flex
           gap={10}
           justifyContent={"space-between"}
@@ -33,9 +40,10 @@ export default function AboutMe() {
           bgSize={"cover"}
           width={'full'}
           flexDirection={{base : 'column-reverse',md : 'row'}}
+
         
         >
-          <Box width={{md : '45%',base :'full'}} padding={5}>
+          <Box  padding={5}  width={'full'}>
             <Heading marginLeft={2} marginBottom={2}>
               <Highlight
                 query={"Education"}
@@ -47,6 +55,7 @@ export default function AboutMe() {
             <Accordion
               allowToggle
               height={{ lg: 280, md: 250, base: 200 }}
+
               marginTop={10}
             >
               <AccordionItem>
@@ -113,16 +122,41 @@ export default function AboutMe() {
             </Accordion>
           </Box>
           <Spacer />
-          <Box padding={2}>
-            <Image src={school}  />
+          <Box padding={2}  width={'full'} paddingTop={{base :0 ,md :20}}> 
+            <Image src={school} />
           </Box>
         </Flex>
-      </HStack>
+      
 
-      <HStack>
-        <Box></Box>
-        <Box></Box>
-      </HStack>
+      <Flex marginTop={50} width={'full'} padding={10} gap={20}  flexDirection={{base : 'column',md : 'row'}} >
+        <Box width={'full'}>
+          <Heading marginBottom={10} lineHeight={'tall'}>
+            <Highlight query={"Journey"}
+                styles={{ px: "2", py: "1", rounded: "full", bg: "red.100" }}>
+              Coding Journey
+            </Highlight>
+          </Heading>
+          <Image src={roadmap} />
+        </Box>
+        
+        <Box paddingTop={{md :20 ,base :0}}  maxWidth={'full'} overflowX={'auto'}>
+            <Grid gap={5} templateColumns={{md : '1fr 1fr',base : '3fr 3fr 3fr'}}>
+                <GridItem  bgColor={'#ff9eaf'} width={{base :300,lg : 'full'}} borderRadius={'10'} padding={5} colSpan={{lg : 2,base :0}}>
+                    <Heading marginBottom={3} textColor={'white'} fontSize={{lg :'4xl',md : '2xl',base : '4xl'}}>2021 </Heading>
+                    <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '15'}}>I learn about HTML,CSS. And i create a many small project with HTML and CSS</Text> 
+                </GridItem>
+                <GridItem  bgColor={'#86a1e8'} borderRadius={'10'} padding={5} width={{base :300,lg : 'full'}}>
+                    <Heading marginBottom={3} textColor={'white'} fontSize={{lg :'4xl',md : '2xl',base : '4xl'}}>2022 </Heading>
+                    <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '15'}}>2022 i start learn about javascript. So,i create a project like music player, timer,stopwatch and etc.</Text> 
+                </GridItem>
+                <GridItem   bgColor={'#ff9eaf'} borderRadius={'10'} padding={5} width={{base :300,lg : 'full'}}>
+                    <Heading marginBottom={3} textColor={'white'} fontSize={{lg :'4xl',md : '2xl',base : '4xl'}}>2023 </Heading>
+                    <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '15'}}>I start to learn about backend. So, first i learning PHP programming languange and i create project with PHP languange.After learning PHP, i start to learning node JS,API,http protocol.</Text> 
+                </GridItem>
+            </Grid>
+            
+        </Box>
+      </Flex>
     </>
   );
 }
