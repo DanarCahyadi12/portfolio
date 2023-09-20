@@ -1,6 +1,5 @@
-
+'use client'
 import {
-
   Box,
   Link,
   Heading,

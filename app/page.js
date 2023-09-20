@@ -1,5 +1,5 @@
 
-
+'use client'
 import { Box, VStack } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";

@@ -1,3 +1,4 @@
+'use client'
 import {
   Accordion,
   AccordionButton,
@@ -10,7 +11,6 @@ import {
   Heading,
   Highlight,
   Spacer,
-  VStack,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import school from "../assets/School.svg";
