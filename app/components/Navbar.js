@@ -1,18 +1,10 @@
 'use client'
 import {
   Box,
-  Link,
-  Heading,
-  Hide,
-  Show,
-  Menu,
-  MenuButton,
-  Button,
-  Icon,
-  MenuList,
-  MenuItem,
+  Heading
+  
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+
 
 export default function Navbar() {
   return (
@@ -33,38 +25,6 @@ export default function Navbar() {
           Danar Cahyadi
         </Heading>
       </Box>
-      <Show above="md">
-        <Box width={"80%"} display={"flex"} justifyContent={"end"} gap={10}>
-          <Link _hover={{ textDecoration: "none" }}>About me</Link>
-          <Link _hover={{ textDecoration: "none" }}>My project</Link>
-          <Link _hover={{ textDecoration: "none" }}>Contact me</Link>
-        </Box>
-      </Show>
-      <Hide above="md">
-        <Box>
-          <Menu>
-            {({ isOpen }) => (
-              <>
-                <MenuButton as={Button}>
-                    {!isOpen ? <Icon as={HamburgerIcon} /> : <Icon as={CloseIcon} />}
-                  
-                </MenuButton>
-                <MenuList>
-                  <MenuItem _hover={{textColor: 'black'}}>
-                    <Link _hover={{ textDecoration: "none" }} >About me</Link>
-                  </MenuItem>
-                  <MenuItem  _hover={{textColor: 'black'}}>
-                    <Link _hover={{ textDecoration: "none" }}>My project</Link>
-                  </MenuItem>
-                  <MenuItem  _hover={{textColor: 'black'}}>
-                    <Link _hover={{ textDecoration: "none" }}>Contact me</Link>
-                  </MenuItem>
-                </MenuList>
-              </>
-            )}
-          </Menu>
-          </Box>
-      </Hide>
     </Box>
   );
 }
