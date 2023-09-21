@@ -28,7 +28,7 @@ export default function Header() {
           </Heading>
           <Heading fontSize={{lg : '3xl',md : '2xl',base : '2xl'}} fontWeight={'medium'} lineHeight={'tall'} textAlign={{md : 'start',base :'center'}}>
             <Highlight query={'Developer'} styles={{ px: '2', py: '1', rounded: 'full', bg: '#86a1e8',textColor : 'white' }}>
-              I'm Fullstack Developer
+              Fullstack Developer
             </Highlight>
             </Heading>
   
