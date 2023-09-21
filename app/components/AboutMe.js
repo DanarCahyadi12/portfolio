@@ -147,15 +147,15 @@ export default function AboutMe() {
         
         <Box paddingTop={{md :20 ,base :0}}  maxWidth={'full'} overflowX={'auto'}>
             <Grid gap={5} templateColumns={{lg : '1fr 1fr',md : '1fr',base : '3fr 3fr 3fr'}}>
-                <GridItem  bgColor={'#7f00ab'}  borderRadius={'10'} padding={5} colSpan={{lg : 2, base : 0}} width={{lg : 'full',md : 'full',base : 500}}>
+                <GridItem  bgColor={'#7f00ab'}  borderRadius={'10'} padding={5} colSpan={{lg : 2, base : 0}} width={{lg : 'full',md : 'full',base : 390}}>
                     <Heading marginBottom={3} textColor={'white'} fontSize={{lg :'4xl',md : '2xl',base : '4xl'}}>2021 </Heading>
                     <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '15'}}>I learn about HTML,CSS. And i create a many small project with HTML and CSS</Text> 
                 </GridItem>
-                <GridItem  bgColor={'#86a1e8'} borderRadius={'10'} padding={5}  width={{lg : 'full',md : 'full',base : 500}}>
+                <GridItem  bgColor={'#86a1e8'} borderRadius={'10'} padding={5}  width={{lg : 'full',md : 'full',base : 390}}>
                     <Heading marginBottom={3} textColor={'white'} fontSize={{lg :'4xl',md : '2xl',base : '4xl'}}>2022 </Heading>
                     <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '15'}}>2022 i start learn about javascript. So,i create a project like music player, timer,stopwatch and etc.</Text> 
                 </GridItem>
-                <GridItem   bgColor={'#ff9eaf'} borderRadius={'10'} padding={5} width={{lg : 'full',md : 'full',base : 500}}>
+                <GridItem   bgColor={'#ff9eaf'} borderRadius={'10'} padding={5} width={{lg : 'full',md : 'full',base : 390}}>
                     <Heading marginBottom={3} textColor={'white'} fontSize={{lg :'4xl',md : '2xl',base : '4xl'}}>2023 </Heading>
                     <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '15'}}>I start to learn about backend. So, first i learning PHP programming languange and i create project with PHP languange.After learning PHP, i start to learning node JS,API,http protocol.</Text> 
                 </GridItem>
