@@ -40,13 +40,10 @@ export default function AboutMe() {
         <Flex
           gap={10}
           justifyContent={"space-between"}
-          bgColor={"Background"}
-          bgImage={"/img-2.svg"}
-          bgRepeat={"no-repeat"}
-          bgSize={"cover"}
           width={'full'}
           flexDirection={{base : 'column-reverse',md : 'row'}}
-
+          
+          
         
         >
           <Box  padding={5}  width={'full'}>
@@ -60,8 +57,6 @@ export default function AboutMe() {
             </Heading>
             <Accordion
               allowToggle
-              height={{ lg: 280, md: 250, base: 200 }}
-
               marginTop={10}
             >
               <AccordionItem>
@@ -134,7 +129,7 @@ export default function AboutMe() {
         </Flex>
       
 
-      <Flex marginTop={50} width={'full'} padding={10} gap={20}  flexDirection={{base : 'column',md : 'row'}} >
+      <Flex marginTop={90} width={'full'} padding={10} gap={20}  flexDirection={{base : 'column',md : 'row'}} >
         <Box width={'full'}>
           <Heading marginBottom={10} lineHeight={'tall'}>
             <Highlight query={"Journey"}
@@ -165,7 +160,7 @@ export default function AboutMe() {
       </Flex>
 
       <Flex justifyContent={'space-between'}  width={'full'} padding={10} flexDirection={{md : 'row',base :'column'}}>
-        <Box width={'full'} backgroundImage={'/ellipse-md-pink.svg'} backgroundPosition={'left'} bgRepeat={'no-repeat'}>
+        <Box width={'full'} backgroundImage={'/ellipse-md-pink.svg'} backgroundPosition={'left'} bgRepeat={'no-repeat'} >
           <Heading lineHeight={'tall'}>
             <Highlight query={'Tech'}   styles={{ px: "2", py: "1", rounded: "full", bg: "#86a1e8",textColor :'white' }}>
               Tech stack
