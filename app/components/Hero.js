@@ -6,13 +6,15 @@ import {
   Highlight,
   HStack,
   Flex,
-  Link
+  Link,
+  Button
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
 import { AiFillGithub,AiFillGitlab ,AiFillInstagram} from "react-icons/ai";
 import img from "../assets/img.svg";
 import Image from "next/image";
 import { Signika_Negative} from "next/font/google";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 const signikaNegative  = Signika_Negative({subsets : ['latin'],weight : '700'})
 export default function Header() {
@@ -31,7 +33,7 @@ export default function Header() {
               Fullstack Developer
             </Highlight>
             </Heading>
-  
+           
             <Flex gap={10} marginTop={5} justifyContent={{md :"normal",base :'center'}}>
               <Link href="https://github.com/DanarCahyadi12" >
                 <Icon as={AiFillGithub} fontSize={{md : 30,base :20}}/>
@@ -44,6 +46,9 @@ export default function Header() {
               </Link>
               
             </Flex>
+            <Link href="/about" >
+              <Button marginTop={4} colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>Detail about me</Button>
+            </Link>
         </Box>
       </HStack>
     

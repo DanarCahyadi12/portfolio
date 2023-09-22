@@ -21,7 +21,7 @@ export default function Project() {
             <Image src={search} />
           </Box>
           <Box padding={5}>
-            <Heading fontSize={ {lg : 25,md : 20,base : 15}} textAlign={"left"} marginBottom={10}>
+            <Heading fontSize={ {lg : 25,md : 20,base : 15}} textAlign={"left"} marginBottom={{md : 10,base : 2}}>
               Website-based tuition fee payment system
             </Heading>
             <Link href="https://github.com/DanarCahyadi12/pembayaran-spp">
@@ -36,7 +36,7 @@ export default function Project() {
             <Image src={netsound} />
           </Box>
           <Box padding={5}>
-            <Heading fontSize={{lg : 25,md : 20,base : 15}} textAlign={"left"} marginBottom={10}>
+            <Heading fontSize={{lg : 25,md : 20,base : 15}} textAlign={"left"} marginBottom={{md : 10,base : 2}}>
               Music player website using spotify API
             </Heading>
             <Link href="https://github.com/DanarCahyadi12/netsound">

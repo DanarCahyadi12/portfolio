@@ -33,12 +33,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 export default function AboutMe() {
   return (
     <>
-      <Heading
-        fontSize={{ lg: 60, md: 50, base: 40 }}
-        marginTop={{ md: 20, base: 250 }}
-      >
-        About me
-      </Heading>
+     
       
         <Flex
           gap={10}
@@ -162,9 +157,6 @@ export default function AboutMe() {
       
           </Box>
           <Box marginTop={5} >
-          <Link href="/about">
-              <Button colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>Detail about me</Button>
-            </Link>
           </Box>
         </Box>
       </Flex>
