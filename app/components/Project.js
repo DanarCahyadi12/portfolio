@@ -15,7 +15,7 @@ export default function Project() {
       </Heading>
 
 
-      <Flex padding={5} width={'full'} gap={10} justifyContent={"center"} >
+      <Flex padding={5} width={'full'} gap={10} justifyContent={"center"} flexDirection={{md : 'row',base : 'column'}}>
         <Box width={ {lg : "30%",md : 'full',base :'full'}} shadow={"lg"} bgColor={'white'} borderRadius={10}>
           <Box>
             <Image src={search} />
