@@ -15,6 +15,8 @@ import {
   Spacer,
   GridItem,
   Grid,
+  Button,
+  Link
   
 } from "@chakra-ui/react";
 import Image from "next/image";
@@ -25,6 +27,7 @@ import nextJS from "../assets/next.svg"
 import nodeJS from "../assets/nodejs.svg"
 import mySQL from "../assets/mysql.png"
 import prisma from "../assets/prisma.svg"
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 
 export default function AboutMe() {
@@ -128,7 +131,7 @@ export default function AboutMe() {
           </Box>
         </Flex>
       
-
+      
       <Flex marginTop={90} width={'full'} padding={10} gap={20}  flexDirection={{base : 'column',md : 'row'}} >
         <Box width={'full'}>
           <Heading marginBottom={10} lineHeight={'tall'}>
@@ -140,6 +143,7 @@ export default function AboutMe() {
           <Image src={roadmap} />
         </Box>
         
+        <Box>
         <Box paddingTop={{md :20 ,base :0}}  maxWidth={'full'} overflowX={'auto'}>
             <Grid gap={5} templateColumns={{lg : '1fr 1fr',md : '1fr',base : '3fr 3fr 3fr'}}>
                 <GridItem  bgColor={'#7f00ab'}  borderRadius={'10'} padding={5} colSpan={{lg : 2, base : 0}} width={{lg : 'full',md : 'full',base : '60vw'}}>
@@ -155,7 +159,13 @@ export default function AboutMe() {
                     <Text textColor={'white'} fontSize={{lg : "16",md : "13",base : '12'}}>I start to learn about backend. So, first i learning PHP programming languange and i create project with PHP languange.After learning PHP, i start to learning node JS,API,http protocol.</Text> 
                 </GridItem>
             </Grid>
-            
+      
+          </Box>
+          <Box marginTop={5} >
+          <Link href="/about">
+              <Button colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>Detail about me</Button>
+            </Link>
+          </Box>
         </Box>
       </Flex>
 
@@ -168,28 +178,28 @@ export default function AboutMe() {
             </Heading>  
             <Grid   marginTop={10} templateColumns={'0.5fr 0.5fr '} gap={{lg : 10,base : 6}}>
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
-                <Box width={{lg : 150,md : "100px",base :"60px"}} margin={"auto"}> 
+                <Box width={{lg : 130,md : "100px",base :"60px"}} margin={"auto"}> 
                   <Image src={nextJS} />
                 </Box>
               </GridItem>
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'} >
-                <Box width={{lg : 95, md :"70px",base : "40px"}} margin={"auto"}>
+                <Box width={{lg : 75, md :"70px",base : "40px"}} margin={"auto"}>
                   <Image src={nodeJS} />
                 </Box>
               </GridItem>
               <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
-                <Box width={{lg : 95,md :"70px",base :"40px"}} margin={"auto"}>
+                <Box width={{lg : 75,md :"70px",base :"40px"}} margin={"auto"}>
                   <Image src={mySQL}/> 
                 </Box>
               </GridItem>
               <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
-                <Box width={{lg : 90,md :"70px",base :"40px"}} margin={"auto"}> 
+                <Box width={{lg : 70,md :"70px",base :"40px"}} margin={"auto"}> 
                   <Image src={prisma} />
                 </Box>
               </GridItem>
             </Grid>
         </Box>
-        <Box width={'80%'}  paddingLeft={35} paddingTop={120} display={{md : 'block',base : 'none'}}> 
+        <Box width={'full'}  paddingLeft={20} paddingTop={100} display={{md : 'block',base : 'none'}}> 
           <Image src={techStack} />
         </Box>
       </Flex>
