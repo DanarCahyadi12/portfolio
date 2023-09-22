@@ -171,21 +171,25 @@ export default function AboutMe() {
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
                 <Box width={{lg : 130,md : "100px",base :"60px"}} margin={"auto"}> 
                   <Image src={nextJS} />
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={1}  textAlign={'center'}>Next JS</Heading>
                 </Box>
               </GridItem>
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'} >
                 <Box width={{lg : 75, md :"70px",base : "40px"}} margin={"auto"}>
                   <Image src={nodeJS} />
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={1}  textAlign={'center'} >Node JS</Heading>
                 </Box>
               </GridItem>
               <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
                 <Box width={{lg : 75,md :"70px",base :"40px"}} margin={"auto"}>
                   <Image src={mySQL}/> 
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={1}  textAlign={'center'} >MySQL</Heading>
                 </Box>
               </GridItem>
               <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
                 <Box width={{lg : 70,md :"70px",base :"40px"}} margin={"auto"}> 
                   <Image src={prisma} />
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={1}  textAlign={'center'}>Prisma</Heading>
                 </Box>
               </GridItem>
             </Grid>
@@ -200,16 +204,19 @@ export default function AboutMe() {
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
                 <Box width={{lg : "87px",md : "83px",base :"40px"}} margin={"auto"}> 
                   <Image src={github} />
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={2}  textAlign={'center'}>Github</Heading>
                 </Box>
               </GridItem>
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'} >
                 <Box width={{lg : "87px", md :"83px",base : "40px"}} margin={"auto"}>
                   <Image src={gitlab} />
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={2}  textAlign={'center'}>Gitlab</Heading>
                 </Box>
               </GridItem>
               <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
                 <Box width={{lg : "87px",md :"83px",base :"40px"}} margin={"auto"}>
                   <Image src={git}/> 
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={2} textAlign={'center'}>Git</Heading>
                 </Box>
               </GridItem>
             
