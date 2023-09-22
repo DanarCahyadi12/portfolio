@@ -7,22 +7,20 @@ import {
   AccordionPanel,
   Box,
   Flex,
-  HStack,
-  VStack,
   Text,
   Heading,
   Highlight,
   Spacer,
   GridItem,
-  Grid,
-  Button,
-  Link
+  Grid
   
 } from "@chakra-ui/react";
 import Image from "next/image";
 import school from "../assets/School.svg";
 import roadmap from "../assets/roadmap.svg";
-import techStack from "../assets/tech-stack.svg"
+import github from "../assets/github.svg"
+import gitlab from "../assets/gitlab.svg"
+import git from "../assets/git.svg"
 import nextJS from "../assets/next.svg"
 import nodeJS from "../assets/nodejs.svg"
 import mySQL from "../assets/mysql.png"
@@ -162,7 +160,7 @@ export default function AboutMe() {
         </Box>
       </Flex>
 
-      <Flex justifyContent={'space-between'}  width={'full'} padding={10} flexDirection={{md : 'row',base :'column'}}>
+      <Flex justifyContent={'space-between'}  width={'full'} padding={10} flexDirection={{md : 'row',base :'column'}} gap={50}>
         <Box width={'full'} backgroundImage={'/ellipse-md-pink.svg'} backgroundPosition={'left'} bgRepeat={'no-repeat'} >
           <Heading lineHeight={'tall'}>
             <Highlight query={'Tech'}   styles={{ px: "2", py: "1", rounded: "full", bg: "#86a1e8",textColor :'white' }}>
@@ -192,8 +190,30 @@ export default function AboutMe() {
               </GridItem>
             </Grid>
         </Box>
-        <Box width={'full'}  paddingLeft={20} paddingTop={100} display={{md : 'block',base : 'none'}}> 
-          <Image src={techStack} />
+        <Box width={'full'}> 
+        <Heading lineHeight={'tall'}>
+            <Highlight query={'Tech'}   styles={{ px: "2", py: "1", rounded: "full", bg: "#86a1e8",textColor :'white' }}>
+              Tools
+            </Highlight>
+            </Heading>  
+            <Grid   marginTop={10} templateColumns={'0.5fr 0.5fr '} gap={{lg : 10,base : 6}}>
+              <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
+                <Box width={{lg : "87px",md : "83px",base :"40px"}} margin={"auto"}> 
+                  <Image src={github} />
+                </Box>
+              </GridItem>
+              <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'} >
+                <Box width={{lg : "87px", md :"83px",base : "40px"}} margin={"auto"}>
+                  <Image src={gitlab} />
+                </Box>
+              </GridItem>
+              <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
+                <Box width={{lg : "87px",md :"83px",base :"40px"}} margin={"auto"}>
+                  <Image src={git}/> 
+                </Box>
+              </GridItem>
+            
+            </Grid>
         </Box>
       </Flex>
     </>
