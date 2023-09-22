@@ -48,7 +48,7 @@ export default function Header() {
             </Flex>
             
             <Link href="/about" width={'full'} display={'flex'} justifyContent={{md : 'unset',base :'center'}} _hover={{textDecoration : "none"}}>
-              <Button marginTop={4}  colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>Detail about me</Button>
+              <Button marginTop={4}  colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>More about me</Button>
             </Link>
           
         </Box>

@@ -1,6 +1,6 @@
 'use client'
 import { ArrowBackIcon } from "@chakra-ui/icons";
-import { Avatar, Flex, Heading,Box, GridItem ,Grid, VStack, Container, Icon,Link,Text,Button} from "@chakra-ui/react";
+import { Avatar, Flex, Heading,Box,Icon,Link,Text,Button} from "@chakra-ui/react";
 import { AiFillGithub, AiFillGitlab, AiFillInstagram } from "react-icons/ai";
 export default function AboutMe(){
     return (

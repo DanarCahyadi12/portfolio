@@ -27,7 +27,7 @@ import nextJS from "../assets/next.svg"
 import nodeJS from "../assets/nodejs.svg"
 import mySQL from "../assets/mysql.png"
 import prisma from "../assets/prisma.svg"
-import { ArrowForwardIcon } from "@chakra-ui/icons";
+
 
 
 export default function AboutMe() {
@@ -39,7 +39,8 @@ export default function AboutMe() {
           gap={10}
           justifyContent={"space-between"}
           width={'full'}
-          flexDirection={{base : 'column-reverse',md : 'row'}}
+          flexDirection={{base : 'column',md : 'row'}}
+          marginTop={{md : 100,base : 40}}
           
           
         
