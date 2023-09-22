@@ -110,7 +110,7 @@ export default function AboutMe() {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel>
-                  I chose to attend a Vocational High School because of my
+                  I choose to attend a Vocational High School because of my
                   interest in programming. I attended SMK Negeri 1 Denpasar. The
                   program I chose was Software Engineering. I gained a lot of
                   knowledge at this school, starting from HTML, CSS, JavaScript,

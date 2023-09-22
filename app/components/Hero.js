@@ -23,7 +23,7 @@ export default function Header() {
         <Box>
           <Image src={img}/>
         </Box>
-        <Box marginTop={'-20%'} bgImage={'/rectangle.svg'} bgRepeat={'no-repeat'} bgPosition={'right'}>
+        <Box marginTop={'-20%'} bgImage={'/rectangle.svg'} bgRepeat={'no-repeat'} bgPosition={'right'} >
           <Text fontSize={{lg :40 ,md : 30,base : 35}} textAlign={{md : 'start',base :'center'}}>Hello I'm</Text>
           <Heading className={signikaNegative.className} fontSize={{lg : '8xl',md : '7xl',base : '5xl'}} textAlign={{md : 'start',base :'center'}} backgroundClip={'text'}  bgGradient='linear(to-l, #6687ff, #ff9eaf)'>
             Danar Cahyadi
@@ -46,9 +46,11 @@ export default function Header() {
               </Link>
               
             </Flex>
-            <Link href="/about" >
-              <Button marginTop={4} colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>Detail about me</Button>
+            
+            <Link href="/about" width={'full'} display={'flex'} justifyContent={{md : 'unset',base :'center'}} _hover={{textDecoration : "none"}}>
+              <Button marginTop={4}  colorScheme="pink" variant={'outline'} size={{lg : 'md',md :'sm',base : 'xs'}} rightIcon={<ArrowForwardIcon/>}>Detail about me</Button>
             </Link>
+          
         </Box>
       </HStack>
     
