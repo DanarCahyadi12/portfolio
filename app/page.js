@@ -1,20 +1,22 @@
 
 'use client'
-import { Box, VStack } from "@chakra-ui/react";
+import { Box,Heading,Link } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 
 export default function Main({}) {
   return (
     <Box>
       <Navbar/>
-      <VStack margin={"auto"} marginTop={{md :5,base :0}} >
         <Hero/>
-        <AboutMe/>
+        <div id="about-me">
+          <AboutMe/>
+        </div>
         <Project/>
-      </VStack>
+      <Footer/>
     </Box>
   );
 }

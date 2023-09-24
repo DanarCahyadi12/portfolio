@@ -17,9 +17,9 @@ import { Signika_Negative} from "next/font/google";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 const signikaNegative  = Signika_Negative({subsets : ['latin'],weight : '700'})
-export default function Header() {
+export default function Hero() {
   return (
-      <HStack marginTop={'20'} display={{md : 'flex'}} >
+      <HStack  paddingTop={20} display={{md : 'flex'}} id="hero">
         <Box>
           <Image src={img}/>
         </Box>

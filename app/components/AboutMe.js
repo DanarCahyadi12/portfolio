@@ -178,7 +178,7 @@ export default function AboutMe() {
               <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'} >
                 <Box width={{lg : 75, md :"70px",base : "40px"}} margin={"auto"}>
                   <Image src={nodeJS} />
-                  <Heading fontSize={{md : 20, base : 10}} marginTop={1}  textAlign={'center'} >Node JS</Heading>
+                  <Heading fontSize={{md : 20, base : 10}} marginTop={1}  textAlign={'center'} >NodeJS</Heading>
                 </Box>
               </GridItem>
               <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
@@ -200,21 +200,21 @@ export default function AboutMe() {
               <Heading marginBottom={5}>Tools</Heading>
               <Grid templateColumns={'1fr 1fr'} gap={10}>
                 
-              <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
+              <GridItem bgColor={'white'} padding={6} borderRadius={10} shadow={'lg'}>
                 
-                <Box width={{lg : "95px",md : "83px",base :"40px"}} margin={"auto"}> 
+                <Box width={{lg : 75,md : "83px",base :"40px"}} margin={"auto"}> 
                   <Image src={github} />
                   <Heading fontSize={{md : 20, base : 10}} marginTop={2}  textAlign={'center'}>Github</Heading>
                 </Box>
               </GridItem>
-              <GridItem bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'} >
-                <Box width={{lg : "95px", md :"83px",base : "40px"}} margin={"auto"}>
+              <GridItem bgColor={'white'} padding={6} borderRadius={10} shadow={'lg'} >
+                <Box width={{lg : 75, md :"83px",base : "40px"}} margin={"auto"}>
                   <Image src={gitlab} />
                   <Heading fontSize={{md : 20, base : 10}} marginTop={2}  textAlign={'center'}>Gitlab</Heading>
                 </Box>
               </GridItem>
-              <GridItem  bgColor={'white'} padding={5} borderRadius={10} shadow={'lg'}>
-                <Box width={{lg : "95px",md :"83px",base :"40px"}} margin={"auto"}>
+              <GridItem  bgColor={'white'} padding={6} borderRadius={10} shadow={'lg'}>
+                <Box width={{lg : 73,md :"83px",base :"40px"}} margin={"auto"}>
                   <Image src={git}/> 
                   <Heading fontSize={{md : 20, base : 10}} marginTop={2} textAlign={'center'}>Git</Heading>
                 </Box>
