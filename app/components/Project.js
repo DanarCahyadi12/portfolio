@@ -5,11 +5,12 @@ import netsound from "../assets/netsound.png";
 export default function Project() {
   return (
     <>
-    <Box bgImage={'/mesh-backround.svg'} bgSize={{md : 'unset',base :'cover'}}  bgPosition={{md : 'unset',base : 'center'}}>
+    <Box bgImage={'/mesh-backround.svg'} bgSize={{md : 'unset',base :'cover'}}  bgPosition={{md : 'unset',base : 'center'}} height={'100vh'}>
       <Heading
         fontSize={{ lg: 60, md: 50, base: 40 }}
         marginTop={{ md: 20, base: 10 }}
         textAlign={'center'} 
+        marginBottom={{md : 20,base: 5}}
         >
         Project
       </Heading>

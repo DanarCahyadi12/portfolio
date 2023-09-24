@@ -1,9 +1,9 @@
-import { Box ,Text, Heading} from "@chakra-ui/react";
+import { Box ,Text} from "@chakra-ui/react";
 
 export default function Footer() {
     return (
-        <Box padding={3}  marginTop={2}>
-            <Text textAlign={'center'}>© Copyright 2023 Danar Cahyadi </Text>          
+        <Box padding={4}  marginTop={2}>
+            <Text textAlign={'center'} fontSize={{md : 'inherit',base : '2xs'}}>© Copyright 2023 Danar Cahyadi </Text>          
         </Box>
     )
 }
