@@ -22,7 +22,7 @@ export default function TechStackAndTools() {
 
             <Grid   marginTop={10} templateColumns={ {md : '1fr 1fr ',base : '1fr'}} gap={{lg : 10,base : 6}}>
               <GridItem>
-              <Heading marginBottom={5}>Tech stack</Heading>
+              <Heading marginBottom={5} textAlign={'center'}>Tech stack</Heading>
                 
                 <Grid templateColumns={'1fr 1fr '} gap={10} >
 
@@ -54,7 +54,7 @@ export default function TechStackAndTools() {
               </GridItem>
 
               <GridItem>
-              <Heading marginBottom={5}>Tools</Heading>
+              <Heading marginBottom={5} textAlign={'center'}>Tools</Heading>
               <Grid templateColumns={'1fr 1fr'} gap={10}>
                 
               <GridItem bgColor={'white'} padding={6} borderRadius={10} shadow={'lg'}>
