@@ -14,8 +14,8 @@ export default function Navbar() {
         <Link fontWeight={'bold'} _hover={{textDecoration:'none'}} fontSize={{md: 20, base: 13}}>Danar cahyadi</Link>
         <HStack gap={3}>
           <Link href="#about" fontWeight={'black'} _hover={{textDecoration: 'none'}} fontSize={{md: 'inherit', base: 10}}>ABOUT</Link>
-          <Link fontWeight={'black'} _hover={{textDecoration: 'none'}} fontSize={{md: 'inherit', base: 10}}>SKILL</Link>
-          <Link fontWeight={'black'} _hover={{textDecoration: 'none'}} fontSize={{md: 'inherit', base: 10}}>PROJECT</Link>
+          <Link href="#skill" fontWeight={'black'} _hover={{textDecoration: 'none'}} fontSize={{md: 'inherit', base: 10}}>SKILL</Link>
+          <Link href="#projects"fontWeight={'black'} _hover={{textDecoration: 'none'}} fontSize={{md: 'inherit', base: 10}}>PROJECTS</Link>
         </HStack>
       </Flex>
     </Box>

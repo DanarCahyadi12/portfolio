@@ -3,13 +3,13 @@ import { Box, Flex, Avatar, Heading, Highlight,Text } from "@chakra-ui/react"
 
 export default function About() {
     return (
-        <Box id="about" width={'85%'} margin={'auto'} marginTop={40}>
+        <Box id="about" width={'85%'}  margin={'auto'} marginTop={40} bgImage={'/UTube.svg'} bgRepeat={'no-repeat'} bgPosition={'right'}>
           <Flex gap={20} flexDirection={{md: 'row', base: 'column'}}>
-            <Box >
+            <Box>
               <Avatar src={"/user-backround.svg"} size={"6xl"} borderRadius={'xl'}/>
             </Box>
-            <Box width={'80%'} margin={'auto'}>
-              <Heading>
+            <Box width={{md: '80%', base: '100%'}} margin={'auto'}>
+              <Heading textAlign={'center'}>
                 <Highlight query={'About me'} styles={{py: 2, px: 4, rounded:'full', bgColor: 'red.100'}}>
                     ABOUT ME
                 </Highlight>

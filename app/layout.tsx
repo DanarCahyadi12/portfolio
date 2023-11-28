@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode,
 }) {
   return (
-    <html lang='en' className={ubuntu.className}> 
+    <html lang='en' className={ubuntu.className} style={{scrollBehavior: 'smooth'}}> 
       <body style={{backgroundColor: '#EDF2F7'}}>
         <Providers>{children}</Providers>
       </body>
