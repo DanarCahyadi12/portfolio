@@ -7,7 +7,7 @@ export default function Project() {
    
     return(
         <>
-         <Box id="skill" height={'100%'} padding={7} width={'100%'}margin={'auto'} marginTop={80} bgImage={'/mesh-backround-project.svg'} bgRepeat={'no-repeat'} bgPosition={'center'}>
+         <Box id="projects" height={'100%'} padding={7} width={'100%'}margin={'auto'} marginTop={80} bgImage={'/mesh-backround-project.svg'} bgRepeat={'no-repeat'} bgPosition={'center'}>
             <Heading textAlign={'center'} marginBottom={100}>PROJECTS</Heading>
             <Box>
             <Grid templateColumns={{lg: 'repeat(4,1fr)', md: 'repeat(3,1fr)', base: 'repeat(1,1fr)'}} gap={4} height={'100vh'}>
