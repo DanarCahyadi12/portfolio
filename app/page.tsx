@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 export default function Main() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Main() {
        <About/>
        <Skill/>
        <Project/>
+       <Footer/>
      </Box>
     </>
   );

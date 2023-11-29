@@ -14,7 +14,7 @@ export default function Project() {
                 {projects.map(project => {
                     return (
                         <GridItem>
-                          <ProjectCard title={project.title} description={project.description} tech={project.tech} image={project.image}/>
+                          <ProjectCard title={project.title} description={project.description} tech={project.tech} image={project.image} links={project.links}/>
                         </GridItem>
                         )
                     })}
