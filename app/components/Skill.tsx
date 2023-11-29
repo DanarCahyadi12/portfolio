@@ -11,7 +11,7 @@ import mySQL from '../assets/mysql.png'
 import git from '../assets/git.svg'
 export default function Skill() {
     return (
-        <Box id="skill" width={'90%'}margin={'auto'} marginTop={80} bgImage={'/img-2.svg'} bgRepeat={'no-repeat'} bgPosition={'right'}>
+        <Box id="skill" width={'100%'} padding={5} margin={'auto'} marginTop={80} bgImage={'/img-2.svg'} bgRepeat={'no-repeat'} bgPosition={'right'}>
          <Heading textAlign={'center'}>
                 SKILLS
          </Heading>
