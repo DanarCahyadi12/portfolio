@@ -8,7 +8,7 @@ const ubuntu = Ubuntu({
 })
 export const metadata = {
   title: 'Portofolio',
-  description: 'My portofolio ',
+  description: 'Danar cahyadi | Software Engineering student',
   icons : {
     icon  : "/title.svg"
   }
