@@ -3,7 +3,7 @@ import { Box, Flex, Text, Link } from "@chakra-ui/react";
 export default function Footer() {
     const currentYear = new Date().getFullYear()
     return (
-        <Box width={'100%'} boxShadow={'md'} padding={5} bgColor={'white'}>
+        <Box width={'100%'}  boxShadow={'md'} padding={5} bgColor={'white'}>
             <Flex width={{md: '85%', base: '90%'}} justifyContent={'space-between'} margin={'auto'} flexDirection={{md: 'row', base: 'column'}}>
                 <Box>
                     <Text textAlign= {{md: 'inherit', base: 'center'}} fontSize={{md:'inherit', base: 12}}> © {currentYear} Danar Cahyadi</Text>
