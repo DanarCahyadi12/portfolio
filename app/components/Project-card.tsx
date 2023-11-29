@@ -5,7 +5,6 @@ import Image from "next/image";
 import { ModalComponent } from "./Modal";
 import { useState } from "react";
 export default function ProjectCard(data: Project) {
-    console.log(data.links)
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [detailProject, setDetailProject] = useState<Project>({
         title: "",
