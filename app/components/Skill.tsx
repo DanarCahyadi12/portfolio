@@ -1,5 +1,5 @@
 'use client'
-import { Box, Grid, GridItem, Heading, Highlight, Text} from "@chakra-ui/react"
+import { Box, Grid, GridItem, Heading, Text} from "@chakra-ui/react"
 import React from "react"
 import nodeJS from '../assets/nodejs.svg'
 import js from '../assets/js.svg'

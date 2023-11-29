@@ -1,6 +1,6 @@
 import { Button, Card, CardBody, CardFooter, CardHeader, Heading, Icon, Stack, Text,useDisclosure, Link, HStack } from "@chakra-ui/react";
 import { Project } from "../interfaces";
-import { LiaEyeSolid, LiaGithub } from "react-icons/lia";
+import { LiaEyeSolid } from "react-icons/lia";
 import Image from "next/image";
 import { ModalComponent } from "./Modal";
 import { useState } from "react";

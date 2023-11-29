@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, Heading, useDisclosure } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading } from "@chakra-ui/react";
 import ProjectCard from './Project-card';
 import { projects } from "../data/project";
 export default function Project() {

@@ -3,11 +3,8 @@ import {
   Box,
   Text,
   Heading,
-  Highlight,
   HStack,
-  Flex,
   Link,
-  Button
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
 import { IoLogoGitlab, IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from "react-icons/io5";
