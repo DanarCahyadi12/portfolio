@@ -42,16 +42,4 @@ export const projects: Project[] = [
             }
         ]
     },
-    {
-        title: "Learned (Coming soon)",
-        image: "/soon.svg",
-        description: "Learned is an e-learning platform based on a website. Learned is designed to assist teachers and students in conducting online learning. Learned can help students in creating school assignments, taking quizzes, studying materials, and more.",
-        tech: "Nest JS, Next JS, MySQL",
-        links: [
-            {
-                url: 'https://github.com/DanarCahyadi12/learned-api',
-                icon: LiaGithub
-            }
-        ]
-    }
 ]
