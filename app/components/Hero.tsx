@@ -33,7 +33,7 @@ export default function Hero() {
           <Link href="https://gitlab.com/DanarCahyadi12" fontSize={{md: '2rem', base: '1.3rem'}}><Icon transition={'ease-out 100ms'} _hover={{color: 'orange.200'}} as={IoLogoGitlab}/></Link>
           <Link href="https://github.com/DanarCahyadi12" fontSize={{md: '2rem', base: '1.3rem'}}><Icon transition={'ease-out 100ms'} _hover={{color: 'orange.200'}} as={IoLogoGithub}/></Link>
           <Link href="https://instagram.com/danarchydii" fontSize={{md: '2rem', base: '1.3rem'}}><Icon transition={'ease-out 100ms'} _hover={{color: '#8947b4'}} as={IoLogoInstagram}/></Link>
-          <Link href="https://www.linkedin.com/in/i-ketut-danar-cahyadi-8520162a0" fontSize={{md: '2rem', base: '1.3rem'}}><Icon transition={'ease-out 100ms'} _hover={{color: 'blue.200'}} as={IoLogoLinkedin}/></Link>
+          <Link href="https://www.linkedin.com/in/danarcahyadi" fontSize={{md: '2rem', base: '1.3rem'}}><Icon transition={'ease-out 100ms'} _hover={{color: 'blue.200'}} as={IoLogoLinkedin}/></Link>
         </HStack>
         <Box position={'absolute'} top={5} width={{md: 'inherit', base: 100}}>
           <Image src={Tube} alt="Tube" width={120} height={120}/>
