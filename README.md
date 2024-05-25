@@ -1,5 +1,5 @@
-<h1>Portofolio website</h1>
-<p>Hello all! I made portofolio website using <strong> Next JS </strong> and <strong> Chakra UI</strong> .</p
+<h1>Portfolio website</h1>
+<p>Hello all! I made portfolio website using <strong> Next JS </strong> and <strong> Chakra UI</strong> .</p
                                                                       >
 <p>This portofolio is open source! y'all can clone this repo and see the code</p>
 
