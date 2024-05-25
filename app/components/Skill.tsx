@@ -1,12 +1,9 @@
 'use client'
 import { Box, Grid, GridItem, Heading, Text} from "@chakra-ui/react"
 import React from "react"
-import nodeJS from '../assets/nodejs.svg'
 import js from '../assets/js.svg'
 import Image from "next/image"
 import golang from '../assets/golang.png'
-import jest from '../assets/jest-seeklogo.com.svg'
-import ts from '../assets/typescript.svg'
 import mySQL from '../assets/mysql.png'
 import git from '../assets/git.svg'
 export default function Skill() {
