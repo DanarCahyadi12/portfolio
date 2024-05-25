@@ -15,13 +15,14 @@ export default function About() {
                 </Highlight>
               </Heading>
               <Text fontSize={{lg: 20, md: 15, base: 13}} marginTop={10} textAlign={'justify'}> 
-              Hello everyone! 👋 Let me introduce myself, my name is I Ketut Danar Cahyadi. You can call me Danar. I am a software engineering student at SMK Negeri 1 Denpasar. I started learning HTML during Junior High School. The first programming language I learned was Javascript. I like Javascript because it can be used for both FrontEnd and Backend. Currently, I have switched from Javascript to Typescript.
+              Hello everyone! 👋 Let me introduce myself, my name is I Ketut Danar Cahyadi. You can call me Danar. I was born and live in Indonesia, Bali. I graduated from SMK Negeri 1 Denpasar majoring Software Engineering.
               </Text>
               <Text fontSize={{lg: 20, md: 15, base: 13}} marginTop={10}  textAlign={'justify'}>
+              I learned many programming languanges such as Javascript, Typescript, PHP, Golang and use it for my projects.
               I have experience as a backend developer at CV. Avatar Solution. I also have experience in creating automation testing using Selenium and Javascript at PT. Foxbyte Global Inovasi. I gained a lot of knowledge during my internship.
               </Text>
               <Text fontSize={{lg: 20, md: 15, base: 13}} marginTop={10}  textAlign={'justify'}>
-              I am interested in becoming a Backend Developer. I have studied rest API, Prisma ORM, creating unit testing, ensuring clean code, API documentation, and more. I use NestJS and MySQL to create rest API. Besides, I have participated in several training sessions at Dicoding Academy to become a Backend Developer.
+              I am interested in becoming a Backend Developer. I have learning RESTful API, ORM, creating unit testing, ensuring clean code, API documentation, and more. Currently, i use Golang and MySQL to create RESTful API. Besides, I have participated in several training sessions at Dicoding Academy to become a Backend Developer.
               </Text>
             </Box>
           </Flex>
